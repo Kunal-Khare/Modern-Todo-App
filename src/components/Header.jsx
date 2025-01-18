@@ -1,5 +1,6 @@
 export function Header(props) {
-  const { todos } = props;
+  const { todos } = props; 
+  
   const todosLength = todos.length;
 
   const isTaskPlural = todosLength.length !== 1;
