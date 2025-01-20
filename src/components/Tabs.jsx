@@ -16,7 +16,7 @@ export function Tabs(props) {
           // we need to add a key to the parent element when using map
           <button key={tabIndex} className="tab-button">
             <h4>
-              {tab} <span>(0)</span>
+              {tab} <span>{numofTasks}</span>
             </h4>
           </button>
         );

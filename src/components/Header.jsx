@@ -16,3 +16,4 @@ export function Header(props) {
     </header>
   );
 }
+const isTaskPlural = todosLength !== 1;
