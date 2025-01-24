@@ -1,1 +1,46 @@
 @import "tailwindcss";
+
+/* Ensure full height */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Remove default margins */
+body {
+  margin: 0;
+  background: black;
+}
+
+/* Fix for proper layering */
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Better scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+::placeholder {
+  color: #ccc !important; /* Add the !important keyword */
+}
+
+input[type="text"] {
+  color: hsl(271, 51%, 80%); /* Change the color to your desired color */
+}
+
+h2 {
+  text-align: center;
+}
+
+.todo-form {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.todo-item {
+  margin-bottom: 10px;
+}
